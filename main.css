@@ -1,0 +1,75 @@
+body {
+  background-attachment: fixed;
+  background-image: url(./Assets/background1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
+body #meniu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.719);
+}
+
+body #meniu li {
+  float: right;
+}
+
+body #meniu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body #meniu li a:hover {
+  background-color: #111111;
+}
+
+div.home {
+  background-color: rgba(91, 243, 192, 0.541);
+  width: 600px;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  display: flexbox;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.home img {
+  width: 60%;
+}
+
+div.home p {
+  font-weight: bold;
+}
+
+#home1 {
+  position: relative;
+  left: 50px;
+}
+
+#home2 {
+  position: relative;
+  left: 500px;
+}
+
+#home3 {
+  position: relative;
+  left: 50px;
+}
+/*# sourceMappingURL=main.css.map */

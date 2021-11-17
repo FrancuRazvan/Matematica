@@ -1,0 +1,68 @@
+@import "vars";
+@import "mixins";
+
+body {
+  background-attachment: fixed;
+  background-image: url(./Assets/background1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+  }
+  #meniu {
+    @include meniu;
+    li {
+      float: right;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: rgb(17, 17, 17);
+    }
+  }
+}
+
+div.home 
+{
+  background-color: rgba(91, 243, 192, 0.541);
+  width: 600px;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  display: flexbox;
+  box-sizing: border-box;
+img 
+{
+  width: 60%;
+}
+p {
+  font-weight: bold;
+}
+}
+
+#home1 {
+  position: relative;
+  left: 50px;
+}
+#home2 {
+  position: relative;
+  left: 500px;
+}
+#home3 {
+  position: relative;
+  left: 50px;
+}
